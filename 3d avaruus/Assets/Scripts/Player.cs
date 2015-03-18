@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Player : MonoBehaviour {
 	public float smooth = 2.0F;
-	public float tiltAngle = 30.0F;
+	public float tiltAngle = 5.0F;
 	public float pspeed = 5.0F;
 
 	// Use this for initialization
@@ -17,7 +17,7 @@ public class Player : MonoBehaviour {
 	void Update () {
 
 		//updown
-		transform.Translate (Vector3.up * Input.GetAxis ("Vertical") * pspeed);
+		transform.Translate (Vector3.up * Input.GetAxis ("Vertical") * pspeed * Time.deltaTime);
 
 		//rotate
 			float tiltAroundY = Input.GetAxis("Horizontal") * tiltAngle;
