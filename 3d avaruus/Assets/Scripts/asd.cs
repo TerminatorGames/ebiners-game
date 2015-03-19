@@ -4,6 +4,7 @@ using System.Collections;
 public class asd : MonoBehaviour {
 	public float turnspeed = 50f;
 	public float thrust = 5f;
+	public float backthrust = 2f;
 	
 	// Use this for initialization
 	void Start () {
@@ -17,6 +18,9 @@ public class asd : MonoBehaviour {
 			//vanha movement
 			//transform.Translate(Vector3.up * mspeed * Time.deltaTime);
 			GetComponent<Rigidbody>().AddForce(transform.up * thrust);
+
+		if (Input.GetKey (KeyCode.S))
+			GetComponent<Rigidbody>().AddForce(-transform.up * backthrust);
 		
 		if (Input.GetKey (KeyCode.A))
 			transform.Rotate(Vector3.forward, -turnspeed * Time.deltaTime);
