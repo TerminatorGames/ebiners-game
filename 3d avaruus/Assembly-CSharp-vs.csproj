@@ -46,13 +46,16 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Resources\BallAttributes.cs" />
      <Compile Include="Assets\Scripts\CAMERA.cs" />
      <Compile Include="Assets\Scripts\Collisions.cs" />
      <Compile Include="Assets\Scripts\EventReport.cs" />
      <Compile Include="Assets\Scripts\Gravity.cs" />
+     <Compile Include="Assets\Scripts\MouseTracking.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerStatReport.cs" />
      <Compile Include="Assets\Scripts\PlayerStatus.cs" />
+     <Compile Include="Assets\Scripts\PlayerWeapon.cs" />
      <Compile Include="Assets\Scripts\PositionReport.cs" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />

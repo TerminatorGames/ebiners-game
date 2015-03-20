@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour {
 	public float backthrust = 2f;
 	public float maxvelocity = 10f;
 	public float dragfactor = 1;
-	public Rigidbody kulli;
+	public static Rigidbody kulli;
 
 	
 	void Start () {
