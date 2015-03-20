@@ -8,6 +8,8 @@ function Update()
 	if(Input.GetButtonDown("Jump"))
 	{
 	var instanceBullet = Instantiate(prefabBullet, transform.position, shootPosition.rotation);
-	instanceBullet.GetComponent.<Rigidbody>().AddForce(shootPosition.right * shootForce);
+	instanceBullet.GetComponent.<Rigidbody>().AddForce(shootPosition.up * shootForce);
 
 	}}
+	
+	//var instanceBullet = Instantiate(prefabBullet, transform.position, shootPosition.rotation);
