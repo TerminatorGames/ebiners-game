@@ -13,6 +13,8 @@ public class PositionReport : MonoBehaviour {
 		text = GetComponent <Text> ();
 	}
 
+	//reporttaa tekstikenttään player position ja velocityn
+
 	void Update () {
 		playerpos = GameObject.FindWithTag ("Player").transform.position;
 		playervelocity = GameObject.FindWithTag ("Player").GetComponent<Rigidbody> ().velocity.magnitude;

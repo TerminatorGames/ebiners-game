@@ -34,6 +34,8 @@ public class PlayerMovement : MonoBehaviour {
 		if (Input.GetKey (KeyCode.D))
 			transform.Rotate(Vector3.forward, turnspeed * Time.deltaTime);
 
+
+		//lisää dragia jos velocity yli maxvelocityn
 		if (kulli.velocity.magnitude > maxvelocity)
 			kulli.drag = (kulli.velocity.magnitude - maxvelocity) * dragfactor;
 

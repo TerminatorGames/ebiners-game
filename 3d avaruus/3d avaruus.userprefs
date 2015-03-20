@@ -1,12 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\asd.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Collisions.cs">
     <Files>
-      <File FileName="Assets\Scripts\PlayerStatus.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\asd.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerStatReport.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerMovement.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Gravity.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Collisions.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PositionReport.cs" Line="21" Column="29" />
+      <File FileName="Assets\Scripts\Collisions.cs" Line="23" Column="31" />
+      <File FileName="Assets\Scripts\PositionReport.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\EventReport.cs" Line="18" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

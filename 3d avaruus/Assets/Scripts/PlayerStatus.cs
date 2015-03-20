@@ -2,13 +2,15 @@
 using System.Collections;
 
 public class PlayerStatus : MonoBehaviour {
+	public static float playershields;
+	public static float playerhull;
 
-	// Use this for initialization
+	//  tämä classi kaikkea playeriin liittyvää varten, shields, hull, aseet, ammot, fuel, jne....
 	void Start () {
-	
+		playershields = 100;
+		playerhull = 100;
 	}
-	
-	// Update is called once per frame
+
 	void Update () {
 	
 	}
