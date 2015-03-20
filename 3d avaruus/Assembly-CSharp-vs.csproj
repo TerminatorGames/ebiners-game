@@ -50,9 +50,9 @@
      <Compile Include="Assets\Scripts\Collisions.cs" />
      <Compile Include="Assets\Scripts\EventReport.cs" />
      <Compile Include="Assets\Scripts\Gravity.cs" />
+     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerStatus.cs" />
      <Compile Include="Assets\Scripts\PositionReport.cs" />
-     <Compile Include="Assets\Scripts\asd.cs" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
