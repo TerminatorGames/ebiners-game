@@ -3,9 +3,10 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class PlayerStatReport: MonoBehaviour {
-	private string weaponselected = "Pulse Laser";
+	private string weaponselected = "Machine gun";
 	private int shields;
 	private int hull;
+	private int ammo;
 	
 	Text text;
 	
@@ -18,6 +19,8 @@ public class PlayerStatReport: MonoBehaviour {
 	void Update () {
 		shields = Mathf.RoundToInt (PlayerStatus.playershields);
 		hull = Mathf.RoundToInt (PlayerStatus.playerhull);
-		text.text = "Shield status: " + shields +"%\nHull integrity: " + hull + "%\n\n" +weaponselected;
+		ammo = PlayerStatus.ammocount;
+
+		text.text = "Shield status: " + shields +"%\nHull integrity: " + hull + "%\n\n" +weaponselected+": " +ammo;
 	}
 }

@@ -15,7 +15,6 @@ public class BallAttributes : MonoBehaviour {
 		}
 	}
 	void OnCollisionEnter(Collision collision) {
-
 		GameObject.Destroy (this.gameObject);
 	}
 }

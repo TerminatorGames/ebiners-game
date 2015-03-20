@@ -25,9 +25,13 @@ public class PlayerWeapon : MonoBehaviour {
 
 		    Debug.DrawLine(transform.position, (Vector3.Normalize(suunta - asuunta))*1000, Color.green);
 
+		if (PlayerStatus.ammocount > 0){
 		if (Input.GetKey (KeyCode.Mouse0) && Time.time > nextFire){
+		
 			nextFire = Time.time + fireRate;
-			
+
+			PlayerStatus.ammocount--;
+
 			GameObject projectile = Instantiate (Ball) as GameObject;
 			projectile.transform.position = (transform.position + (Vector3.Normalize(suunta - asuunta)*2));
 			
@@ -35,7 +39,7 @@ public class PlayerWeapon : MonoBehaviour {
 			
 			//vauhti = PlayerMovement.kulli.velocity.magnitude;
 			rb.AddForce(Vector3.Normalize(suunta - asuunta) * projectileSpeed, ForceMode.VelocityChange);
-			
+			}
 			
 		}
 	}
