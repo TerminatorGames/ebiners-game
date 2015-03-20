@@ -7,6 +7,8 @@ Project("{D3169342-CBF6-2C9E-9641-25F63B3BF8CF}") = "3d avaruus", "Assembly-CSha
 EndProject
 Project("{D3169342-CBF6-2C9E-9641-25F63B3BF8CF}") = "3d avaruus", "Assembly-CSharp-Editor.csproj", "{5CF957F9-64A0-4D8E-07D5-0CC31011CF10}"
 EndProject
+Project("{D3169342-CBF6-2C9E-9641-25F63B3BF8CF}") = "3d avaruus", "Assembly-UnityScript.unityproj", "{5CFA06E7-74AA-5B6B-9789-ACE6279A68E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,11 +27,18 @@ Global
 		{5CF957F9-64A0-4D8E-07D5-0CC31011CF10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CF957F9-64A0-4D8E-07D5-0CC31011CF10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CF957F9-64A0-4D8E-07D5-0CC31011CF10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CFA06E7-74AA-5B6B-9789-ACE6279A68E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CFA06E7-74AA-5B6B-9789-ACE6279A68E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CFA06E7-74AA-5B6B-9789-ACE6279A68E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CFA06E7-74AA-5B6B-9789-ACE6279A68E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																											GlobalSection(MonoDevelopProperties) = preSolution
+																																														GlobalSection(MonoDevelopProperties) = preSolution
+=======
+																																									GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> 2ada71a8045e29446ad8523c63cffa7339667d41
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

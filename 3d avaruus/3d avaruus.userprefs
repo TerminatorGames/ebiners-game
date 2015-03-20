@@ -1,10 +1,16 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\BallAttributes.cs">
     <Files>
       <File FileName="Assets\Resources\BallAttributes.cs" Line="21" Column="2" />
       <File FileName="Assets\Scripts\PlayerWeapon.cs" Line="35" Column="97" />
       <File FileName="Assets\Scripts\Collisions.cs" Line="15" Column="2" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ampuminen.js">
+    <Files>
+      <File FileName="Assets\ampuminen.js" Line="1" Column="1" />
+>>>>>>> 2ada71a8045e29446ad8523c63cffa7339667d41
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

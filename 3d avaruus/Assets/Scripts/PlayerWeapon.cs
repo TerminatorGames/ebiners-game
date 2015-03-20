@@ -23,7 +23,7 @@ public class PlayerWeapon : MonoBehaviour {
 		//printtaa consoliin hiiren koordinaatit pelialueella, vaatii säätöä
 		print (suunta - asuunta);
 
-		if (Input.GetKey (KeyCode.E) && Time.time > nextFire){
+		if (Input.GetKey (KeyCode.Mouse0) && Time.time > nextFire){
 			nextFire = Time.time + fireRate;
 
 			GameObject projectile = Instantiate (Ball) as GameObject;
