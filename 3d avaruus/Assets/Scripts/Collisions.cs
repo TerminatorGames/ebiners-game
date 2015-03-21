@@ -24,6 +24,11 @@ public class Collisions : MonoBehaviour {
 			PlayerStatus.playershields = PlayerStatus.playershields - 300;
 			lastcollision = "Player wanted to take a deeper look into how fusion reactions work.";
 		}
+
+		if (collision.transform.tag == "Black Hole") {
+			PlayerStatus.playershields = PlayerStatus.playershields - 300;
+			lastcollision = "Player became one with the singularity.";
+		}
 	}
 }
 
