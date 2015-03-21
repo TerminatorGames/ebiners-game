@@ -5,19 +5,18 @@ public class PlayerStatus : MonoBehaviour {
 	public static float playershields;
 	public static float playerhull;
 	public static int ammocount;
-	//public GameObject Player;
+
 
 	//  tämä classi kaikkea playeriin liittyvää varten, shields, hull, aseet, ammot, fuel, jne....
 	void Start () {
-	//	Player = Resources.Load("Player") as GameObject;
-
-		playershields = 100;
+		playershields = 100; //respawnissa kaikki täyteen
 		playerhull = 100;
 		ammocount = 300;
 	}
 
-	void Update () {
+	void FixedUpdate () {
 
+	// jos shieldit <1, damage applytään hulliin, jos hull <1, alus tuhoutuu
 		if (playershields < 1) { 
 			playerhull = (playerhull + playershields);
 			playershields = 0;
@@ -25,12 +24,6 @@ public class PlayerStatus : MonoBehaviour {
 
 		if (playerhull < 1)
 			Destroy (this.gameObject);
-
-		//if(GameObject.FindGameObjectWithTag("Player") == null)
-		//	GameObject Player = Instantiate (Player) as GameObject;
-		//	playershields = 100;
-		//	playerhull = 100;
-		//	ammocount = 300;
 	}
 }
 

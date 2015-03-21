@@ -12,7 +12,7 @@ public class Collisions : MonoBehaviour {
 		// spawn = GetComponent<Transform>().position;
 	}
 
-	
+	// collisionissa tapahtuva eventti, tällä hetkellä damagea + viesti
 	void OnCollisionEnter(Collision collision)
 	{
 		if (collision.transform.tag == "Planet") {

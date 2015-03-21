@@ -10,7 +10,7 @@ public class EventReport: MonoBehaviour {
 		text = GetComponent <Text> ();
 	}
 
-	//reporttaa tällä hetkellä collisionit textboksiin
+	//reporttaa tällä hetkellä collisionit textboksiin, tähän eventtejä jotka tulee alaboksin "tekstikenttään"
 	
 	void Update () {
 		teksti = Collisions.lastcollision;

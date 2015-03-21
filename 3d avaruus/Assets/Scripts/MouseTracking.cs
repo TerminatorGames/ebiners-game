@@ -7,12 +7,12 @@ public class MouseTracking : MonoBehaviour {
 	public float xoffset = 0;
 	public float zoffset = -17f;
 
-	// Use this for initialization
 	void Start () {
 	}
-	// Update is called once per frame
+
 	void Update () {
 
+		// trackaa hiiren x/y koordinaatteja ja muuttaa ne world koordinaateiksi
 		mousepos = Input.mousePosition;
 		mousepos = Camera.main.ScreenToWorldPoint (mousepos);
 		mousepos.y = 0;

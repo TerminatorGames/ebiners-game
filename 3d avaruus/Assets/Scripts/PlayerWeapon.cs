@@ -21,19 +21,19 @@ public class PlayerWeapon : MonoBehaviour {
 		
 		
 		//printtaa consoliin hiiren koordinaatit pelialueella, vaatii säätöä
-		print (suunta - asuunta);
+		//print (suunta - asuunta); //debuggausta
 
-		    Debug.DrawLine(transform.position, (Vector3.Normalize(suunta - asuunta))*1000, Color.green);
+		    Debug.DrawLine(transform.position, (Vector3.Normalize(suunta - asuunta))*1000, Color.green); //debuggausta
 
 		if (PlayerStatus.ammocount > 0){
-		if (Input.GetKey (KeyCode.Mouse0) && Time.time > nextFire){
+		if (Input.GetKey (KeyCode.Mouse0) && Time.time > nextFire){ // rof
 		
 			nextFire = Time.time + fireRate;
 
-			PlayerStatus.ammocount--;
+			PlayerStatus.ammocount--; // ammo
 
 			GameObject projectile = Instantiate (Ball) as GameObject;
-			projectile.transform.position = (transform.position + (Vector3.Normalize(suunta - asuunta)*2));
+			projectile.transform.position = (transform.position + (Vector3.Normalize(suunta - asuunta)*2)); //ampuminen hiiren suuntaan
 			
 			Rigidbody rb = projectile.GetComponent<Rigidbody> ();
 			

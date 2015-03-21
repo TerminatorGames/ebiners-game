@@ -4,7 +4,9 @@ using System.Collections.Generic;
 public class Gravity : MonoBehaviour 
 {	
 	public float range = 500;
-	
+
+
+	//planeettojen ja muiden isojen objektien vetovoima, älä koske :D
 	void FixedUpdate () 
 	{
 		Collider[] cols  = Physics.OverlapSphere(transform.position, range); 

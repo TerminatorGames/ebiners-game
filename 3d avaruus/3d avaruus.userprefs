@@ -1,15 +1,18 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerStatus.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Spawner.cs">
     <Files>
-      <File FileName="Assets\Scripts\PlayerStatReport.cs" Line="24" Column="101" />
-      <File FileName="Assets\Scripts\MouseTracking.cs" Line="23" Column="1" />
-      <File FileName="Assets\Scripts\PlayerWeapon.cs" Line="36" Column="99" />
-      <File FileName="Assets\Scripts\PlayerStatus.cs" Line="14" Column="23" />
-      <File FileName="Assets\Scripts\Collisions.cs" Line="12" Column="6" />
-      <File FileName="Assets\Resources\BallAttributes.cs" Line="20" Column="2" />
-      <File FileName="Assets\Scripts\Spawner.cs" Line="9" Column="3" />
+      <File FileName="Assets\Scripts\CAMERA.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Collisions.cs" Line="15" Column="69" />
+      <File FileName="Assets\Scripts\EventReport.cs" Line="13" Column="46" />
+      <File FileName="Assets\Scripts\Gravity.cs" Line="13" Column="47" />
+      <File FileName="Assets\Scripts\MouseTracking.cs" Line="15" Column="75" />
       <File FileName="Assets\Scripts\PlayerMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerStatReport.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerStatus.cs" Line="12" Column="52" />
+      <File FileName="Assets\Scripts\PlayerWeapon.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PositionReport.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Spawner.cs" Line="7" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

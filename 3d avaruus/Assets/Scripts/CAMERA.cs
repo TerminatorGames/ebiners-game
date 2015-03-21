@@ -13,6 +13,9 @@ public class CAMERA : MonoBehaviour {
 	private Vector3 velocity = Vector3.zero;
 	
 	void FixedUpdate () {
+
+		target = GameObject.FindWithTag ("Player").transform;
+
 		Vector3 goalPos = target.position;
 		goalPos.y = transform.position.y;
 		goalPos.x = target.position.x - xoffset;
