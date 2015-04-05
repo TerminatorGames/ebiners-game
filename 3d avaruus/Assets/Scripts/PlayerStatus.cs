@@ -5,13 +5,14 @@ public class PlayerStatus : MonoBehaviour {
 	public static float playershields;
 	public static float playerhull;
 	public static int ammocount;
+	public static string weaponselected = "Autocannon";
 
 
 	//  tämä classi kaikkea playeriin liittyvää varten, shields, hull, aseet, ammot, fuel, jne....
 	void Start () {
 		playershields = 100; //respawnissa kaikki täyteen
 		playerhull = 100;
-		ammocount = 300;
+		ammocount = 2000;
 	}
 
 	void FixedUpdate () {
